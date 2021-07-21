@@ -1,42 +1,63 @@
+* h1,
+* h2,
+* h3 {
+  color: #172b4d;
+}
+
 body {
   background-color: #e5e5e5;
 }
 
-.container-xl {
+.container-xl ul {
+  list-style: none;
+}
+
+.welcome {
+  background-repeat: no-repeat;
   background-image: url("media/Header-llustration-desktop.svg");
 }
 
-.container-xl .nav {
+.welcome .nav {
   background-color: transparent;
   padding-top: 26px;
 }
 
-.container-xl .nav-link {
+.welcome .nav-link {
   color: #344563;
 }
 
-.container-xl h1 {
-  color: #172b4d;
+.welcome h1 {
   margin-top: 186px;
   font-size: 48px;
 }
 
-.container-xl p:first-of-type {
+.welcome p:first-of-type {
   color: #36b37f;
   font-size: 48px;
 }
 
-.container-xl p:last-of-type {
+.welcome p:last-of-type {
   color: #172b4d;
   font-size: 20px;
 }
 
-.container-xl svg {
+.welcome svg {
   fill: #505f79;
 }
 
-.container-xl ul {
-  list-style: none;
+.welcome ul {
   margin-bottom: 101px;
+}
+
+.welcome .margin-bottom {
+  margin-bottom: 495px;
+}
+
+.works h2 {
+  font-size: 40px;
+}
+
+.works .project {
+  width: 30vw;
 }
 /*# sourceMappingURL=main.css.map */

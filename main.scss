@@ -1,8 +1,25 @@
+* {
+  h1,
+  h2,
+  h3 {
+    color: #172b4d;
+  }
+}
+
 body {
   background-color: #e5e5e5;
 }
 
+$spacer: 100rem !default;
+
 .container-xl {
+  ul {
+    list-style: none;
+  }
+}
+
+.welcome {
+  background-repeat: no-repeat;
   background-image: url("media/Header-llustration-desktop.svg");
 
   .nav {
@@ -15,7 +32,6 @@ body {
   }
 
   h1 {
-    color: #172b4d;
     margin-top: 186px;
     font-size: 48px;
   }
@@ -35,8 +51,20 @@ body {
   }
 
   ul {
-    list-style: none;
     margin-bottom: 101px;
   }
 
+  .margin-bottom {
+    margin-bottom: 495px;
+  }
+}
+
+.works {
+  h2 {
+    font-size: 40px;
+  }
+
+  .project {
+    width: 30vw;
+  }
 }
