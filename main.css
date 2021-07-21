@@ -8,6 +8,7 @@ body {
 
 .container-xl .nav {
   background-color: transparent;
+  padding-top: 26px;
 }
 
 .container-xl .nav-link {
@@ -16,5 +17,26 @@ body {
 
 .container-xl h1 {
   color: #172b4d;
+  margin-top: 186px;
+  font-size: 48px;
+}
+
+.container-xl p:first-of-type {
+  color: #36b37f;
+  font-size: 48px;
+}
+
+.container-xl p:last-of-type {
+  color: #172b4d;
+  font-size: 20px;
+}
+
+.container-xl svg {
+  fill: #505f79;
+}
+
+.container-xl ul {
+  list-style: none;
+  margin-bottom: 101px;
 }
 /*# sourceMappingURL=main.css.map */
