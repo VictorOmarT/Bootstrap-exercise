@@ -2,10 +2,18 @@ body {
   background-color: #e5e5e5;
 }
 
-.nav {
-  background-color: transparent;
-}
-
 .container-xl {
   background-image: url("media/Header-llustration-desktop.svg");
+
+  .nav {
+    background-color: transparent;
+  }
+
+  .nav-link {
+    color: #344563;
+  }
+
+  h1 {
+    color: #172b4d;
+  }
 }

@@ -2,11 +2,19 @@ body {
   background-color: #e5e5e5;
 }
 
-.nav {
+.container-xl {
+  background-image: url("media/Header-llustration-desktop.svg");
+}
+
+.container-xl .nav {
   background-color: transparent;
 }
 
-.container-xl {
-  background-image: url("media/Header-llustration-desktop.svg");
+.container-xl .nav-link {
+  color: #344563;
+}
+
+.container-xl h1 {
+  color: #172b4d;
 }
 /*# sourceMappingURL=main.css.map */
